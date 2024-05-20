@@ -1,0 +1,22 @@
+<div class="p-grid p-justify-content-center">
+    <div class="p-col-6">
+      <div class="card">
+        <form [formGroup]="formulario" (ngSubmit)="submitForm()">
+          <div class="p-field">
+            <label for="name" class="p-d-block">Nombre:</label>
+            <input id="name" type="text" formControlName="name" class="p-inputtext p-component">
+          </div>
+          <div class="p-field">
+            <label for="email" class="p-d-block">Correo electrónico:</label>
+            <input id="email" type="email" formControlName="email" class="p-inputtext p-component">
+          </div>
+          <div class="p-field">
+            <label for="message" class="p-d-block">Mensaje:</label>
+            <input id="message" type="text" formControlName="message" class="p-inputtext p-component">
+          </div>
+          <button type="submit" class="p-button p-component">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  

@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+.card {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
